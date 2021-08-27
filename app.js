@@ -13,6 +13,9 @@ const passport = require('./helpers/passport')
 const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users');
 const authRouter = require('./routes/auth');
+const prodsRouter = require('./routes/products-router');
+const extrasRouter = require('./routes/extras-router');
+const OrderRouter = require('./routes/order-router');
 
 mongoose.connect(process.env.DB, {
     useUnifiedTopology:true,
@@ -50,6 +53,9 @@ app.use( passport.session() )
 
 app.use('/api', indexRouter);
 app.use('/api/users', usersRouter);
-app.use('/api/auth',authRouter)
+app.use('/api/auth',authRouter);
+app.use('/api/products',prodsRouter);
+app.use('/api/extras',extrasRouter);
+app.use('/api/order',OrderRouter);
 
 module.exports = app;
