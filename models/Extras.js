@@ -2,9 +2,9 @@ const mongoose = require("mongoose");
 const {Schema, model} = mongoose;
 
 const extrasSchema = new Schema({
-    extraname:{
+    productname:{
         type:String,
-        require:[true, "Write the extra's name"]
+        require:[true, "Write the produt's name"]
     },
     price:{
         type: String,

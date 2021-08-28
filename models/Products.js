@@ -4,7 +4,7 @@ const {Schema, model} = mongoose;
 const productSchema = new Schema({
     productname:{
         type:String,
-        require:[true, "Write the produt's name"]
+        require:[true, "Write the product's name"]
     },
     price:{
         type: String,
@@ -14,7 +14,7 @@ const productSchema = new Schema({
    
     ingredients:{
         type: String,
-        required: [true, "You must write the products' ingredients "]
+        
     },
     image:{
         type: String
