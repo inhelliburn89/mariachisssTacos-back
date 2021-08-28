@@ -15,7 +15,8 @@ const usersRouter = require('./routes/users');
 const authRouter = require('./routes/auth');
 const prodsRouter = require('./routes/products-router');
 const extrasRouter = require('./routes/extras-router');
-const OrderRouter = require('./routes/order-router');
+const orderRouter = require('./routes/order-router');
+const drinkRouter = require('./routes/drinks-router');
 
 mongoose.connect(process.env.DB, {
     useUnifiedTopology:true,
@@ -56,6 +57,7 @@ app.use('/api/users', usersRouter);
 app.use('/api/auth',authRouter);
 app.use('/api/products',prodsRouter);
 app.use('/api/extras',extrasRouter);
-app.use('/api/order',OrderRouter);
+app.use('/api/order',orderRouter);
+app.use('/api/drinks',drinkRouter);
 
 module.exports = app;

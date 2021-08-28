@@ -9,7 +9,7 @@ exports.createExtra =  (req,res) =>{
     if(req.file){
       image = req.file.path
     }
-    const {extraname,price,...restExtra} = req.body
+    const {productname,price,...restExtra} = req.body
     
     
     Extras.create({...req.body,image })

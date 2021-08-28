@@ -1,10 +1,10 @@
 const mongoose = require("mongoose");
 const {Schema, model} = mongoose;
 
-const extrasSchema = new Schema({
-    productname:{
+const drinksSchema = new Schema({
+    drinkname:{
         type:String,
-        require:[true, "Write the product's name"]
+        require:[true, "Write the drink's name"]
     },
     price:{
         type: String,
@@ -16,4 +16,4 @@ const extrasSchema = new Schema({
     }
 },{timestamps:true});
 
-module.exports = model("Extras",extrasSchema)
+module.exports = model("Drinks", drinksSchema)
