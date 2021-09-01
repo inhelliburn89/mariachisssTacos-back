@@ -18,6 +18,11 @@ const productSchema = new Schema({
     },
     image:{
         type: String
+    },
+    meat:{
+    type:String,
+    enum:["Asada", "Pastor","Chicken","Birria","Barbacoa","Standard meat"],
+    value:true
     }
 },{timestamps:true});
 
