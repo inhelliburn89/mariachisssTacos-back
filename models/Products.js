@@ -11,18 +11,11 @@ const productSchema = new Schema({
         required:[true,"The price must be > $0"],
         min: [1,"The price cannot be 0"]
     },
-   
     ingredients:{
         type: String,
-        
     },
     image:{
         type: String
-    },
-    meat:{
-    type:String,
-    enum:["Asada", "Pastor","Chicken","Birria","Barbacoa","Standard meat"],
-    value:true
     }
 },{timestamps:true});
 

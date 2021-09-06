@@ -3,7 +3,7 @@ const {Schema, model} = mongoose;
 
 const orderSchema = new Schema({
     orderproducts:{
-        type:String,
+        type:[Schema.Types.ObjectId],ref:"Products",
         require:[true, "Write the order's products"]
     },
     ordernumber:{
