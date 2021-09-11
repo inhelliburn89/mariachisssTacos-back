@@ -38,7 +38,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use(cors({
-    origin:["http://localhost:3000", "https://6138215d7fd6b210a66d6d6f--mariachisss-tacos.netlify.app/"], credentials: true
+    origin:["http://localhost:3000", "https://mariachisss-tacos.netlify.app/"], credentials: true
 }))
 
 app.use(
