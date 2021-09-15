@@ -7,7 +7,7 @@ exports.createOrder =  (req,res) =>{
 
     
     const {orderproducts,ordernumber,total,status,...restOrder} = req.body
-    
+    console.log("elreq",req.body)
     
     Order.create({...req.body })
     .then(order => {

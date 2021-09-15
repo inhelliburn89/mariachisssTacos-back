@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 const {Schema, model} = mongoose;
 
 const productSchema = new Schema({
-    productname:{
+    orderproducts:{
         type:String,
         require:[true, "Write the product's name"]
     },
