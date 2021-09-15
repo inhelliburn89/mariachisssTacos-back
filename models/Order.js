@@ -3,15 +3,16 @@ const {Schema, model} = mongoose;
 
 const orderSchema = new Schema({
     orderproducts:{
-        type:[String],
+        type:[{
+            orderproducts:String,
+            price:String,
+            cant:Number,
+            totalXcant:Number
+        }],
         require:[true, "Write the order's products"]
     },
-    ordernumber:{
-        type:String,
-        require:[true, "Write the order's number"]
-    },
     total:{
-        type: String,
+        type: Number,
         required:[true,"The price must be > $0"],
         min: [1,"The price cannot be 0"]
     },
@@ -21,4 +22,4 @@ const orderSchema = new Schema({
     }
 },{timestamps:true});
 
-module.exports = model("Order",orderSchema)
+module.exports = model("Orders",orderSchema)
