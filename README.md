@@ -1,12 +1,12 @@
 <br />
 <p align="center">
   <a href="https://github.com/cesarcarreras/">
-    <img src="./public/images/mariachis.png" alt="Logo" width="500" height="200">
+    <img src="./public/images/mariachis.png" alt="Logo" width="500" height="500">
   </a>
 
   <h1 align="center">Mariachisss Tacos </h1>
 
-# Welcome to Mariachisss Tacos
+# Welcome 
 
 
 Mariachisss tacos is a system application made to solve money loss issues and bas control of food orders.
@@ -28,7 +28,7 @@ Mauricio Muñoz [Linkedin](https://www.linkedin.com/in/mauripedroza89/)
 - Username: mariachis1.\
 - Password: 1234
 
-## Tecnologías utilizadas
+## Used framework and packages
 -NodeJS.\
 -Express.\
 -MongoDB.\
@@ -37,10 +37,10 @@ Mauricio Muñoz [Linkedin](https://www.linkedin.com/in/mauripedroza89/)
 -CSS.\
 -Chakra UI.\
 -Axios.\
--EmailJS./
+-EmailJS.\
 -Cloudinary.\
 -Passport.\
--Multer
+-Multer.
 
 
 ## Mariachisss Tacos
@@ -121,6 +121,7 @@ yarn start
 
 
 ## .env file
+```sh
 PORT = localport "3000/3001" .\
 DB = mongodb://localhost/mariachissstacos.\
 DB_PROD = Remote database.\
@@ -128,5 +129,6 @@ SECRET = Secret word.\
 CLOUDINARY_NAME = Your cloudinary username.\
 CLOUDINARY_KEY = Your coudinary apikey.\
 CLOUDINARY_SECRET = Your cloudinary secret code
+```
 
-## Mariachisss Tacos :taco: :food:
+## Mariachisss Tacos :taco: :taco:
