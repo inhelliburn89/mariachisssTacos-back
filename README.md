@@ -102,4 +102,4 @@ CLOUDINARY_NAME = Your cloudinary username.\
 CLOUDINARY_KEY = Your coudinary apikey.\
 CLOUDINARY_SECRET = Your cloudinary secret code
 
-## Mariachisss Tacos :taco: :food:
+## Mariachisss Tacos :taco: :taco:
