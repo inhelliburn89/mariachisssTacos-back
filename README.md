@@ -25,7 +25,7 @@ Mauricio Muñoz [Linkedin](https://www.linkedin.com/in/mauripedroza89/)
 
 # Account to try demo
 
-- Username: mariachis1.\
+- Username: mariachis1
 - Password: 1234
 
 ## Used framework and packages
