@@ -122,12 +122,12 @@ yarn start
 
 ## .env file
 ```sh
-PORT = localport "3000/3001" .\
-DB = mongodb://localhost/mariachissstacos.\
-DB_PROD = Remote database.\
-SECRET = Secret word.\
-CLOUDINARY_NAME = Your cloudinary username.\
-CLOUDINARY_KEY = Your coudinary apikey.\
+PORT = localport "3000/3001" 
+DB = mongodb://localhost/mariachissstacos
+DB_PROD = Remote database
+SECRET = Secret word
+CLOUDINARY_NAME = Your cloudinary username
+CLOUDINARY_KEY = Your coudinary apikey
 CLOUDINARY_SECRET = Your cloudinary secret code
 ```
 
