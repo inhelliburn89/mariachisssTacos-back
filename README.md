@@ -1,4 +1,13 @@
+<br />
+<p align="center">
+  <a href="https://github.com/cesarcarreras/">
+    <img src="./public/images/mariachis.png" alt="Logo" width="500" height="200">
+  </a>
+
+  <h1 align="center">Mariachisss Tacos </h1>
+
 # Welcome to Mariachisss Tacos
+
 
 Mariachisss tacos is a system application made to solve money loss issues and bas control of food orders.
 This will make the cashiers work easier and will reduce the errors radically.
@@ -7,7 +16,7 @@ The money income will be accurate as well as the change given to customers, as w
 
 ## Developer:
 
-Mauricio Muñoz
+Mauricio Muñoz [Linkedin](https://www.linkedin.com/in/mauripedroza89/)
 
 ## Demo
 
@@ -78,18 +87,36 @@ Home
 
 # Instalation
 If you are willing to try the app on your browser type on your terminal:
+
 Backend:
 
-`git clone https://github.com/inhelliburn89/mariachisssTacos-back`.\
-`cd mariachisssTacos-back`\
-`npm install`\
-`npm run dev`
+```sh
+git clone https://github.com/inhelliburn89/mariachisssTacos-back
+```
+```sh
+cd mariachisssTacos-back
+```
+```sh
+npm install
+```
+```sh
+npm run dev
+```
 
 Frontend:
-`https://github.com/inhelliburn89/mariachisss-tacos`.\
-`cd mariachisss-tacos`\
-`yarn`\
-`yarn start`
+
+```sh
+https://github.com/inhelliburn89/mariachisss-tacos
+```
+```sh
+cd mariachisss-tacos
+```
+```sh
+yarn
+```
+```sh
+yarn start
+```
 
 
 
