@@ -1,4 +1,13 @@
-# Welcome to Mariachisss Tacos
+<br />
+<p align="center">
+  <a href="https://github.com/cesarcarreras/">
+    <img src="./public/images/mariachis.png" alt="Logo" width="500" height="500">
+  </a>
+
+  <h1 align="center">Mariachisss Tacos </h1>
+
+# Welcome 
+
 
 Mariachisss tacos is a system application made to solve money loss issues and bas control of food orders.
 This will make the cashiers work easier and will reduce the errors radically.
@@ -7,7 +16,7 @@ The money income will be accurate as well as the change given to customers, as w
 
 ## Developer:
 
-Mauricio Muñoz
+Mauricio Muñoz [Linkedin](https://www.linkedin.com/in/mauripedroza89/)
 
 ## Demo
 
@@ -16,10 +25,10 @@ Mauricio Muñoz
 
 # Account to try demo
 
-- Username: mariachis1.\
+- Username: mariachis1
 - Password: 1234
 
-## Tecnologías utilizadas
+## Used framework and packages
 -NodeJS.\
 -Express.\
 -MongoDB.\
@@ -28,10 +37,10 @@ Mauricio Muñoz
 -CSS.\
 -Chakra UI.\
 -Axios.\
--EmailJS./
+-EmailJS.\
 -Cloudinary.\
 -Passport.\
--Multer
+-Multer.
 
 
 ## Mariachisss Tacos
@@ -78,22 +87,41 @@ Home
 
 # Instalation
 If you are willing to try the app on your browser type on your terminal:
+
 Backend:
 
-`git clone https://github.com/inhelliburn89/mariachisssTacos-back`.\
-`cd mariachisssTacos-back`\
-`npm install`\
-`npm run dev`
+```sh
+git clone https://github.com/inhelliburn89/mariachisssTacos-back
+```
+```sh
+cd mariachisssTacos-back
+```
+```sh
+npm install
+```
+```sh
+npm run dev
+```
 
 Frontend:
-`https://github.com/inhelliburn89/mariachisss-tacos`.\
-`cd mariachisss-tacos`\
-`yarn`\
-`yarn start`
+
+```sh
+https://github.com/inhelliburn89/mariachisss-tacos
+```
+```sh
+cd mariachisss-tacos
+```
+```sh
+yarn
+```
+```sh
+yarn start
+```
 
 
 
 ## .env file
+```sh
 PORT = localport "3000/3001" .\
 DB = mongodb://localhost/mariachissstacos.\
 DB_PROD = Remote database.\
@@ -101,5 +129,6 @@ SECRET = Secret word.\
 CLOUDINARY_NAME = Your cloudinary username.\
 CLOUDINARY_KEY = Your coudinary apikey.\
 CLOUDINARY_SECRET = Your cloudinary secret code
+```
 
 ## Mariachisss Tacos :taco: :taco:
