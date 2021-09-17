@@ -25,7 +25,7 @@ Mauricio Muñoz [Linkedin](https://www.linkedin.com/in/mauripedroza89/)
 
 # Account to try demo
 
-- Username: mariachis1.\
+- Username: mariachis1
 - Password: 1234
 
 ## Used framework and packages
@@ -122,13 +122,16 @@ yarn start
 
 ## .env file
 ```sh
-PORT = localport "3000/3001" .\
-DB = mongodb://localhost/mariachissstacos.\
-DB_PROD = Remote database.\
-SECRET = Secret word.\
-CLOUDINARY_NAME = Your cloudinary username.\
-CLOUDINARY_KEY = Your coudinary apikey.\
+PORT = localport "3000/3001" 
+DB = mongodb://localhost/mariachissstacos
+DB_PROD = Remote database
+SECRET = Secret word
+CLOUDINARY_NAME = Your cloudinary username
+CLOUDINARY_KEY = Your coudinary apikey
 CLOUDINARY_SECRET = Your cloudinary secret code
 ```
 
 ## Mariachisss Tacos :taco: :taco:
+
+Frontend:
+[https://github.com/inhelliburn89/mariachisss-tacos](https://github.com/inhelliburn89/mariachisss-tacos)
